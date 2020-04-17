@@ -1,0 +1,122 @@
+version: '3.7'
+
+services:
+
+  web:
+    image: pandit_app:0.1
+    container_name: pandit_web
+    restart: always
+    env_file: .env
+    environment:
+      - PORT=$PORT
+      - HOSTNAME=$HOSTNAME
+      - EXPIRY=$EXPIRY
+      - PYTHONPATH=$PYTHONPATH
+      - MONGOHOST=$MONGOHOST
+      - MONGOPORT=$MONGOPORT
+      - MONGOUSER=$MONGOUSER
+      - MONGOPASS=$MONGOPASS
+      - DBNAME=$DBNAME
+    ports:
+      - "$PORT:3000"
+    volumes:
+      - /logs/web:/home/codebase/logs/web:z
+    networks:
+      - app-network
+    entrypoint: /bin/bash
+    working_dir: /home/codebase/
+    command: "start_webserver.bat"
+    depends_on:
+      - mongodb 
+
+  proxy:
+    image: pandit_app:0.1
+    container_name: pandit_proxy
+    restart: always
+    env_file: .env
+    environment:
+      - PORT=$PORT
+      - HOSTNAME=$HOSTNAME
+      - WEBHOST=$WEBHOST
+      - PROXYPORT=$PROXYPORT
+      - TENSORBOARDPORT=$TENSORBOARDPORT
+      - TENSORBOARDHOST=$TENSORBOARDHOST
+    ports:
+      - "$PROXYPORT:8080"
+    volumes:
+      - /logs/proxy:/home/codebase/logs/proxy:z
+    networks:
+      - app-network
+    entrypoint: /bin/bash
+    working_dir: /home/codebase/
+    command: "start_proxyserver.bat"
+
+
+
+  batch:
+    image: pandit_app:0.1
+    container_name: pandit_batch
+    restart: always
+    env_file: .env
+    environment:
+      - PORT=$PORT
+      - HOSTNAME=$HOSTNAME
+      - BATCHPORT=$BATCHPORT
+      - PYTHONPATH=$PYTHONPATH
+      - MONGOHOST=$MONGOHOST
+      - MONGOPORT=$MONGOPORT
+      - MONGOUSER=$MONGOUSER
+      - MONGOPASS=$MONGOPASS
+      - DBNAME=$DBNAME
+    ports:
+      - "$BATCHPORT:4000"
+    volumes:
+      - /logs/batch:/home/codebase/logs/batch:z
+      - /wordembeddings:/home/codebase/batch/wordembeddings:z
+    networks:
+      - app-network
+    entrypoint: /bin/bash
+    working_dir: /home/codebase/
+    command: "start_batchserver.bat"
+    depends_on: 
+      - mongodb
+
+  tensorboard:
+    image: pandit_app:0.1
+    container_name: pandit_tensorboard
+    restart: always
+    env_file: .env
+    environment:
+      - TENSORBOARDPORT=$TENSORBOARDPORT
+    ports:
+      - "$TENSORBOARDPORT:6006"
+    volumes:
+        - /wordembeddings:/home/codebase/batch/wordembeddings:z
+    networks:
+      - app-network
+    entrypoint: /bin/bash
+    working_dir: /home/codebase/
+    command: "start_tensorboardserver.bat"
+
+
+  mongodb:
+    image: pandit_mongo:0.1
+    container_name: pandit_mongo
+    restart: always
+    env_file: .env
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=$MONGOUSER
+      - MONGO_INITDB_ROOT_PASSWORD=$MONGOPASS
+      - MONGO_INITDB_DATABASE=$DBNAME
+    ports:
+      - "27017:27017"
+    volumes:     
+      - /data/db:/data/db:z
+    networks:
+      - app-network  
+
+networks:
+  app-network:
+    driver: bridge
+
+
