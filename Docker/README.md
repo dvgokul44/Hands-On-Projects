@@ -23,7 +23,7 @@ To deploy MEAN you can execute below commands provided you have below files.
 
 To build base image for MEAN with necessary software.
 
-Steps:
+#### Steps:
 	- Install OS, Ubuntu
 	- Install Anaconda3-4.2.0
 	- Update PATH variable with python
@@ -32,7 +32,7 @@ Steps:
 	- Install required python libraries
 	- Copy nltk_data and tf-tensorboard.html to Anaconda 
 
-Commands:
+#### Commands:
 	- cd MEAN_Base
 	- docker build -t MEAN_base:0.1 . 
 	- docker save -o MEAN_base.tar MEAN_base:0.1    (This is for backup)
@@ -43,14 +43,14 @@ Commands:
 
 To build MEAN application.
 
-Steps: 
+#### Steps: 
 	- Use MEAN_base:0.1 image
 	- Copy codebase 
 	- Copy app_sourcefiles
 	- Untar web_node_modules.tar.gz
 	- Untar batch_node_modules.tar.gz
 	
-Commands:
+#### Commands:
 	- cd MEAN_App
 	- docker build -t MEAN_app:0.1 .
 	- docker save -o MEAN_app.tar MEAN_app:0.1	(This is for backup)
@@ -61,12 +61,12 @@ Commands:
 
 To build MongoDB v3.2 and initialize DB 'mean-dev' with credentials and save default documents in 'projects' and 'users' collection.
 
-Steps:
+#### Steps:
 	- Use mongo:3.2 image
 	- Copy mongoinit.js to docker-entrypoint-initdb.d folder 
 		(All .js and .sh files in 'docker-entrypoint-initdb.d' folder will be executed on startup in DB initialised using variable MONGO_INITDB_DATABASE)
 
-Commands:
+#### Commands:
 	- cd MEAN_Mongo
 	- docker build -e MONGO_INITDB_DATABASE=mean-dev -t MEAN_mongo:0.1 .
 	- docker save -o MEAN_mongo.tar MEAN_mongo:0.1	(This is for backup)
@@ -76,7 +76,7 @@ Commands:
 
 To start MEAN services and MongoDB service in synch.
 
-Steps:
+#### Steps:
 	- For each service defined:
 		* Refer appropriate image (MEAN_app:0.1, MEAN_mongo:0.1)
 		* Define container name (MEAN_web, MEAN_batch, MEAN_mongo)
@@ -87,7 +87,7 @@ Steps:
 		* Define volumes to enable persistent storage (mongo data, MEAN logs)
 		* Create container start command by defining entrypoint, working directory and command
 
-Commands:
+#### Commands:
 	- docker-compose up -d	(To start services)
 	- docker-compose down	(To stop services)
 	
