@@ -1,76 +1,25 @@
-# QUICK START
+# CONTAINERIZATION OF A MEAN APPLICATION
 
+## QUICK START
 
 To deploy MEAN you can execute below commands provided you have below files.
 
-	Files:
+#### Files:
 		- MEAN_app.tar
 		- MEAN_mongo.tar
 		- docker-compose.yml
 		- .env
-	
-	Commands:
+#### Commands:
 		- docker load -i MEAN_app.tar		(To load application image)
-		- docker load -i MEAN_mongo.tar	(To load database image)
-		- docker-compose up -d 				(To start services)
-		- docker-compose down				(To stop services)
+		- docker load -i MEAN_mongo.tar	        (To load database image)
+		- docker-compose up -d 			(To start services)
+		- docker-compose down			(To stop services)
 
-**************************************************************************************************
---------------------------------------------------------------------------------------------------
-										DOCKER DETAILS
---------------------------------------------------------------------------------------------------
-**************************************************************************************************
 
---------------------------------------------------------------------------------------------------
-										FOLDER HIERARCHY
---------------------------------------------------------------------------------------------------
+## DOCKER DETAILS
 
-	* MEAN_Base
-		- DockerFile
-		* Python_Source
-			- nltk_data.tar.gz
-			- tf-tensorboard.html
-			
-												* FOLDER
-												- FILE
-								
-**************************************************************************************************
 
-	* MEAN_App
-		- DockerFile
-		* codebase
-		* app_sourcefiles
-			- batch_node_modules.tar.gz
-			- web_node_modules.tar.gz
-			* shells
-				- start_webserver.bat 
-				- start_batchserver.bat
-				- start_tensorboardserver.bat 
-				
-												* FOLDER
-												- FILE
-
-**************************************************************************************************
-
-	* MEAN_Mongo
-		- DockerFile
-		- mongoinit.js
-
-												* FOLDER
-												- FILE
-												
-**************************************************************************************************
-
-	* MEAN_Compose
-		- docker-compose.yml
-		- .env
-		
-												* FOLDER
-												- FILE
-
---------------------------------------------------------------------------------------------------
-										MEAN_Base DockerFile
---------------------------------------------------------------------------------------------------
+### MEAN_Base DockerFile
 
 To build base image for MEAN with necessary software.
 
@@ -89,9 +38,8 @@ Commands:
 	- docker save -o MEAN_base.tar MEAN_base:0.1    (This is for backup)
 	- docker load -i MEAN_base.tar					(This is to load from backup)
 
---------------------------------------------------------------------------------------------------
-										MEAN_App DockerFile
---------------------------------------------------------------------------------------------------
+
+### MEAN_App DockerFile
 
 To build MEAN application.
 
@@ -108,9 +56,8 @@ Commands:
 	- docker save -o MEAN_app.tar MEAN_app:0.1	(This is for backup)
 	- docker load -i MEAN_app.tar					(This is to load from backup)
 
---------------------------------------------------------------------------------------------------
-										MEAN_Mongo DockerFile
---------------------------------------------------------------------------------------------------
+
+### MEAN_Mongo DockerFile
 
 To build MongoDB v3.2 and initialize DB 'mean-dev' with credentials and save default documents in 'projects' and 'users' collection.
 
@@ -125,9 +72,7 @@ Commands:
 	- docker save -o MEAN_mongo.tar MEAN_mongo:0.1	(This is for backup)
 	- docker load -i MEAN_mongo.tar 
 	
---------------------------------------------------------------------------------------------------
-										MEAN docker-compose
---------------------------------------------------------------------------------------------------
+### MEAN docker-compose
 
 To start MEAN services and MongoDB service in synch.
 
