@@ -11,3 +11,7 @@ This is a commonplace for different languages, tools, libraries, technologies th
 
 * Cross Validation
 * Dimensionality Reduction
+
+## Docker
+
+A MEAN application with Python engine was dockerized and services were orchestrated with compose.
