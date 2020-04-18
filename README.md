@@ -11,6 +11,7 @@ This is a commonplace for different languages, tools, libraries, technologies th
 
 * Cross Validation
 * Dimensionality Reduction
+* Tensorflow Basics
 
 ## Docker
 
