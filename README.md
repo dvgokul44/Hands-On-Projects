@@ -11,6 +11,8 @@ This is a commonplace for different languages, tools, libraries, technologies th
 
 * Cross Validation
 * Dimensionality Reduction
+* Exploratory Data Analysis
+* Foundations of NLP
 * Tensorflow Basics
 
 ## Docker
