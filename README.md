@@ -18,3 +18,7 @@ This is a commonplace for different languages, tools, libraries, technologies th
 ## Docker
 
 A MEAN application with Python engine was dockerized and services were orchestrated with compose.
+
+## Django
+
+A Machine Learning API store using Django. Work In Progress.
