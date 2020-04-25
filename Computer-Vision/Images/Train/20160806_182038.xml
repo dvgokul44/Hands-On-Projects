@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>20160806_182038.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Train\20160806_182038.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Joey</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>201</xmin>
+			<ymin>7</ymin>
+			<xmax>583</xmax>
+			<ymax>410</ymax>
+		</bndbox>
+	</object>
+</annotation>

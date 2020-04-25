@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>Monica_overalls.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Train\Monica_overalls.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Monica</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>177</xmin>
+			<ymin>22</ymin>
+			<xmax>665</xmax>
+			<ymax>494</ymax>
+		</bndbox>
+	</object>
+</annotation>

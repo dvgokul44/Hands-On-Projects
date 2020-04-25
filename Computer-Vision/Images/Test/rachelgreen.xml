@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Test</folder>
+	<filename>rachelgreen.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Test\rachelgreen.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rachel</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>287</xmin>
+			<ymin>1</ymin>
+			<xmax>513</xmax>
+			<ymax>304</ymax>
+		</bndbox>
+	</object>
+</annotation>

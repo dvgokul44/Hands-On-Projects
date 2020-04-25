@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>Rachel-at-the-beach-house-with-her-friends.png</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Train\Rachel-at-the-beach-house-with-her-friends.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rachel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>411</xmin>
+			<ymin>42</ymin>
+			<xmax>605</xmax>
+			<ymax>374</ymax>
+		</bndbox>
+	</object>
+</annotation>

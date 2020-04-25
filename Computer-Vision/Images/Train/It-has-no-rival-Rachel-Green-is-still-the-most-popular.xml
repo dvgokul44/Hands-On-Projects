@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>It-has-no-rival-Rachel-Green-is-still-the-most-popular.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Train\It-has-no-rival-Rachel-Green-is-still-the-most-popular.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rachel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>289</xmin>
+			<ymin>3</ymin>
+			<xmax>676</xmax>
+			<ymax>490</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>MV5BOGI2M2E0NWYtZjIwZS00MTQ2LWI5ZDgtMDNmMTU0NTZlZmQ5XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_UY1200_CR662,0,630,1200_AL_.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Train\MV5BOGI2M2E0NWYtZjIwZS00MTQ2LWI5ZDgtMDNmMTU0NTZlZmQ5XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_UY1200_CR662,0,630,1200_AL_.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Chandler</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>206</xmin>
+			<ymin>18</ymin>
+			<xmax>724</xmax>
+			<ymax>335</ymax>
+		</bndbox>
+	</object>
+</annotation>

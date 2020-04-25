@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>tumblr_ogwid7zQUV1v831bfo7_250.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Train\tumblr_ogwid7zQUV1v831bfo7_250.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Phoebe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>157</xmin>
+			<ymin>13</ymin>
+			<xmax>627</xmax>
+			<ymax>519</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>Heres-Why-Phoebe-Buffay-from-Friends-Was-the-Most-Sorted-Character-1280x720.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Train\Heres-Why-Phoebe-Buffay-from-Friends-Was-the-Most-Sorted-Character-1280x720.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Phoebe</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>305</xmin>
+			<ymin>1</ymin>
+			<xmax>512</xmax>
+			<ymax>269</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>joey-fi.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Train\joey-fi.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Joey</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>217</xmin>
+			<ymin>4</ymin>
+			<xmax>454</xmax>
+			<ymax>398</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>afe924bcfcb8cd725a0613699b51c3f3.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Train\afe924bcfcb8cd725a0613699b51c3f3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rachel</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>218</xmin>
+			<ymin>1</ymin>
+			<xmax>567</xmax>
+			<ymax>542</ymax>
+		</bndbox>
+	</object>
+</annotation>

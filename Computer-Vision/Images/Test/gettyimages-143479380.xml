@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Test</folder>
+	<filename>gettyimages-143479380.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Test\gettyimages-143479380.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Phoebe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>303</xmin>
+			<ymin>12</ymin>
+			<xmax>491</xmax>
+			<ymax>289</ymax>
+		</bndbox>
+	</object>
+</annotation>

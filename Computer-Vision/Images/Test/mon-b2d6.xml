@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Test</folder>
+	<filename>mon-b2d6.png</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Test\mon-b2d6.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Monica</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>299</xmin>
+			<ymin>19</ymin>
+			<xmax>579</xmax>
+			<ymax>486</ymax>
+		</bndbox>
+	</object>
+</annotation>

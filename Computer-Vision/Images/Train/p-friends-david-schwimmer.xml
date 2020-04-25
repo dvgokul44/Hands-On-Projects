@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>p-friends-david-schwimmer.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Train\p-friends-david-schwimmer.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Ross</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>236</xmin>
+			<ymin>8</ymin>
+			<xmax>532</xmax>
+			<ymax>344</ymax>
+		</bndbox>
+	</object>
+</annotation>

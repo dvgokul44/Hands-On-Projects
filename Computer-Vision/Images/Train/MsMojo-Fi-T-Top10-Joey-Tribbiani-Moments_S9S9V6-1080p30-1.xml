@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>MsMojo-Fi-T-Top10-Joey-Tribbiani-Moments_S9S9V6-1080p30-1.jpg</filename>
+	<path>C:\Users\danush.gokul\Desktop\sandbox\Hands-On-Projects\Computer-Vision\Images\Train\MsMojo-Fi-T-Top10-Joey-Tribbiani-Moments_S9S9V6-1080p30-1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Joey</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>307</xmin>
+			<ymin>4</ymin>
+			<xmax>687</xmax>
+			<ymax>558</ymax>
+		</bndbox>
+	</object>
+</annotation>
