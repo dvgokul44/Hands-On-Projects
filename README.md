@@ -15,6 +15,12 @@ This is a commonplace for different languages, tools, libraries, technologies th
 * Foundations of NLP
 * Tensorflow Basics
 
+## Computer-Vision
+
+* Tensorflow Object Detection API tutorial
+* Face Detection with OpenCV
+* Face Recognition with OpenCV
+
 ## Docker
 
 A MEAN application with Python engine was dockerized and services were orchestrated with compose.
