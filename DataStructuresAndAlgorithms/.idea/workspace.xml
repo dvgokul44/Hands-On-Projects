@@ -1,476 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="531a8253-fccc-4a93-a427-0d340dacd1c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GraphSetupTest.java" afterDir="false" />
+    <list default="true" id="ee1d82df-31a5-4961-a462-fd063ec717a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_runner_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Face Detection.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Face Recognition.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/1-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/1-1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/18c8a6d571330b00-600x338.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/18c8a6d571330b00-600x338.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/4ab6c2362e2e32866b8f1094175e246d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/4ab6c2362e2e32866b8f1094175e246d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/5ccba9689d5f47d1b889dde82e28df20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/5ccba9689d5f47d1b889dde82e28df20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/CSXEPunUkAA2W2q.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/CSXEPunUkAA2W2q.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/Fat_Monica.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/Fat_Monica.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/JoeysNewBrain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/JoeysNewBrain.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/MV5BOGRiNTMyNDEtNzBlNS00OWQxLWEwNmQtYzQyZjk0ODcyODJkXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_CR0,45,480,270_AL_UX477_CR0,0,477,268_AL_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/MV5BOGRiNTMyNDEtNzBlNS00OWQxLWEwNmQtYzQyZjk0ODcyODJkXkEyXkFqcGdeQXVyNzU1NzE3NTg@.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/Matthew-Perry.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/Matthew-Perry.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/Test_labels.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/WN876usw_400x400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/WN876usw_400x400.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/a4a47d837726daa86ece52c8dc5b812a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/a4a47d837726daa86ece52c8dc5b812a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/friends.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/friends.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/gettyimages-143479380.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/gettyimages-143479380.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/maxresdefault (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/maxresdefault (1).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/maxresdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/maxresdefault.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/mon-b2d6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/mon-b2d6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/monica1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/monica1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/rachel-green-lead.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/rachel-green-lead.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/rachelgreen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/rachelgreen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/ross-geller-tow-ross-tan-10-03-ross-geller-9744006-720-480.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/ross-geller-tow-ross-tan-10-03-ross-geller-9744006-720-480.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/tdy_hoda_friends_160329.focal-760x428.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Test/tdy_hoda_friends_160329.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/1_wmPow1W1wKED5UTaZ7FInw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/1_wmPow1W1wKED5UTaZ7FInw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/1b85b7498cf0400b47d02d49cc0bbf7b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/1b85b7498cf0400b47d02d49cc0bbf7b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/200px-Matt_Le_Blanc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/200px-Matt_Le_Blanc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/20160806_182038.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/20160806_182038.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/20932048-0-image-a-1_1573607226462.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/20932048-0-image-a-1_1573607226462.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/220px-Friendsphoebe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/220px-Friendsphoebe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/220px-Jennifer_Aniston_as_Rachel_Green.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/220px-Jennifer_Aniston_as_Rachel_Green.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/2d091ffd2fe6d5cf-600x338.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/2d091ffd2fe6d5cf-600x338.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/3981249672_a6fa6100a3_b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/3981249672_a6fa6100a3_b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/4dbabff7-c8bd-4817-abff-a413fd946e49-joey-tribbiani-pineapple.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/4dbabff7-c8bd-4817-abff-a413fd946e49-joey-tribbiani-pineapple.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/51ANQBS99BL._SX309_BO1,204,203,200_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/51ANQBS99BL._SX309_BO1,204,203,200_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/51ANQBS99BL.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/5dc36613b61388f2850447ca06b54595.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/5dc36613b61388f2850447ca06b54595.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/5e5106eac03c0e2a2087f67f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/5e5106eac03c0e2a2087f67f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/611cauyhyiuoqbam_1577086129.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/611cauyhyiuoqbam_1577086129.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/8b6ab443f7afc20eabeae91bf9f3c5ed_400x400.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/8b6ab443f7afc20eabeae91bf9f3c5ed_400x400.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/900829-mattleblanc-friends.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/900829-mattleblanc-friends.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/929b068f430a312e3b48014b22c81b40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/929b068f430a312e3b48014b22c81b40.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Chandler-Bing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Chandler-Bing.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/CourteneyCoxFeb09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/CourteneyCoxFeb09.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/DygOSsyR_400x400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/DygOSsyR_400x400.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/FRIENDS (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/FRIENDS (1).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Friends-TV-Show-Movie-Confirmed-800x400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Friends-TV-Show-Movie-Confirmed-800x400.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Friends.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/GettyImages-Cast-of-Friends.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/GettyImages-Cast-of-Friends.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Heres-Why-Phoebe-Buffay-from-Friends-Was-the-Most-Sorted-Character-1280x720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Heres-Why-Phoebe-Buffay-from-Friends-Was-the-Most-Sorted-Character-1280x720.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/It-has-no-rival-Rachel-Green-is-still-the-most-popular.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/It-has-no-rival-Rachel-Green-is-still-the-most-popular.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Jennifer-Aniston-324x400-324x400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Jennifer-Aniston-324x400-324x400.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/JoeyTribbiani.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/JoeyTribbiani.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Lisa-Kudrow-Phoebe-Buffay-Friends-triplets.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Lisa-Kudrow-Phoebe-Buffay-Friends-triplets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Lisa_Kudrow_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Lisa_Kudrow_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/MV5BOGI2M2E0NWYtZjIwZS00MTQ2LWI5ZDgtMDNmMTU0NTZlZmQ5XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_UY1200_CR662,0,630,1200_AL_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/MV5BOGI2M2E0NWYtZjIwZS00MTQ2LWI5ZDgtMDNmMTU0NTZlZmQ5XkEyXkFqcGdeQXVyNjUxMjc1OTM@.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/MV5BZWUzYjE1MDQtYmJlMS00ZDg5LWExOGQtYzgyZWY4MjEwMDFlXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_UY268_CR147,0,182,268_AL_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/MV5BZWUzYjE1MDQtYmJlMS00ZDg5LWExOGQtYzgyZWY4MjEwMDFlXkEyXkFqcGdeQXVyNjUxMjc1OTM@.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/MonicaGellarEverywhereistPost-e1554168816516.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/MonicaGellarEverywhereistPost-e1554168816516.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Monica_Geller-Bing_Season_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Monica_Geller-Bing_Season_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Monica_leather_jacket.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Monica_leather_jacket.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Monica_overalls.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Monica_overalls.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/MsMojo-Fi-T-Top10-Joey-Tribbiani-Moments_S9S9V6-1080p30-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/MsMojo-Fi-T-Top10-Joey-Tribbiani-Moments_S9S9V6-1080p30-1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/NINTCHDBPICT000515249762.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/NINTCHDBPICT000515249762.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/PRI_85461344.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/PRI_85461344.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Rachel-at-the-beach-house-with-her-friends.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Rachel-at-the-beach-house-with-her-friends.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Ross-Geller.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Ross-Geller.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Ross-Geller.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Ross-Season-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Ross-Season-3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/SEI_69431616.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/SEI_69431616.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Square_Phoebe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Square_Phoebe.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/Train_labels.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/a50956e4e6b35fa4643542964c3ba778.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/a50956e4e6b35fa4643542964c3ba778.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/a93025c1-d207-4d87-8595-22e372592a2c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/a93025c1-d207-4d87-8595-22e372592a2c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/actor2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/actor2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/adcs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/adcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/afe924bcfcb8cd725a0613699b51c3f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/afe924bcfcb8cd725a0613699b51c3f3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/article_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/article_large.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/bf4d87c41f030fa5-600x338.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/bf4d87c41f030fa5-600x338.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/chandler-bing-quotes-092419.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/chandler-bing-quotes-092419.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/e38e62983f945dbb105446aa3a764ff2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/e38e62983f945dbb105446aa3a764ff2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/friends-cast-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/friends-cast-2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/friends-cast-e1582558282192.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/friends-cast-e1582558282192.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/friends-characters-phoebe.jpg.2017-11-27T17_11_49+13_00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/friends-characters-phoebe.jpg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/friends-sitcom-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/friends-sitcom-1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/friends-week.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/friends-week.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/friends.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/how-popular-are-your-opinions-about-ross-geller-2-14231-1496313900-8_dblbig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/how-popular-are-your-opinions-about-ross-geller-2-14231-1496313900-8_dblbig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/intro-1572540933.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/intro-1572540933.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/joey-fi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/joey-fi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/joey-tribbiani-thanksgiving-friends.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/joey-tribbiani-thanksgiving-friends.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/mathewperry6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/mathewperry6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/maxresdefault (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/maxresdefault (2).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/maxresdefault (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/maxresdefault (3).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/moica.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/moica.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/monica-geller.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/monica-geller.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/original (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/original (1).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/original.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/original.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/p-friends-courteney-cox.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/p-friends-courteney-cox.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/p-friends-david-schwimmer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/p-friends-david-schwimmer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/phoebe-buffay-29217-normal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/phoebe-buffay-29217-normal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/rachel-green-friends-tv-show.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/rachel-green-friends-tv-show.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/rachel-green-outfit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/rachel-green-outfit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/rossfour.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/rossfour.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/screen_shot_2018-01-12_at_18.02.30.png_0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/screen_shot_2018-01-12_at_18.02.30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/tumblr_ogwid7zQUV1v831bfo7_250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/tumblr_ogwid7zQUV1v831bfo7_250.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/unnamed (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/unnamed (1).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/unnamed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/unnamed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/vKTWMAaJ_400x400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/vKTWMAaJ_400x400.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/wp3949645.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/wp3949645.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/wp3949674.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/Images/Train/wp3949674.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/generate_tfrecord.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/image_transform.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/object_detection_tutorial.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/test.record" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/train.record" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer-Vision/xml_to_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructuresAndAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresAndAlgorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/core/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/core/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/core/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/core/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/core/migrations/0002_auto_20200419_1834.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/core/migrations/0003_auto_20200419_1855.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/core/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/core/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/core/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/core/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/core/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/mlapi/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/mlapi/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/mlapi/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/mlapi/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/mlapi/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/changelists.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/responsive_rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/css/widgets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/fonts/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/calendar-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/icon-addlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/icon-alert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/icon-calendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/icon-changelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/icon-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/icon-deletelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/icon-no.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/icon-unknown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/icon-viewlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/icon-yes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/inline-delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/selector-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/sorting-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/tooltag-add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/SelectBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/SelectFilter2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/actions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/cancel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/change_form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/collapse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/inlines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/inlines.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/jquery.init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/popup_response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/prepopulate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/prepopulate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/prepopulate_init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/urlify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/contactform/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/contactform/contactform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/css/scss-files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/about-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/blog/blog-image-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/blog/blog-image-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/blog/blog-image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/hero-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/hero-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/newsletter-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/screen/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/screen/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/screen/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/screen/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/screen/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/screen/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/screen/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/screen/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/screen/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/svg/asteroid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/svg/cloud-computing.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/svg/cloud.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/svg/code.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/svg/design-tool.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/svg/paint-palette.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/svg/pixel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/svg/planet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/svg/tools.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/svg/vector.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/team/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/team/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/team/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/team/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/img/video-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/animate/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/animate/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/easing/easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/easing/easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/jquery/jquery-migrate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/modal-video/css/modal-video.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/modal-video/js/modal-video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/modal-video/js/modal-video.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/links.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/owlcarousel/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/superfish/hoverIntent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/superfish/superfish.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/superfish/superfish.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/wow/wow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/static/lib/wow/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-MLAPI/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/MEAN_App/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/MEAN_Base/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/MEAN_Compose/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/MEAN_Compose/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/MEAN_Mongo/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Libraries/Pandas.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Libraries/numpy.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Libraries/nyc_weather.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Libraries/populations.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Machine-Learning/4.linearsep.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Machine-Learning/Basic Sentiment Analysis using NLP.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Machine-Learning/Cross Validation.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Machine-Learning/Dimensionality Reduction.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Machine-Learning/Exploratory Data Analysis on Haberman Dataset.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Machine-Learning/TensorFlow Basics.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Machine-Learning/fashion-mnist-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Machine-Learning/haberman.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lazypanda/algorithms/exceptions/DSAException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lazypanda/algorithms/greedy/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lazypanda/algorithms/greedy/UnionFind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/exceptions/DSAException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/exceptions/DSAException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/Graph$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/Graph$Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/UnionFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GraphSetupTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -481,59 +37,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/Graph.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-              <folding>
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GraphSetupTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/exceptions/DSAException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -541,8 +73,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/UnionFind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="529">
               <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/exceptions/DSAException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GraphSetupTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1304">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -556,21 +110,16 @@
       </list>
     </option>
   </component>
-  <component name="Git.Rebase.Settings">
-    <option name="ONTO" value="refs/remotes/origin/master" />
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/lazypanda/algorithms/greedy/UnionFind.java" />
-        <option value="$PROJECT_DIR$/src/com/lazypanda/algorithms/exceptions/DSAException.java" />
-        <option value="$PROJECT_DIR$/src/com/lazypanda/algorithms/greedy/Graph.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/GraphTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/UnionFind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/exceptions/DSAExceptions.java" />
         <option value="$PROJECT_DIR$/src/test/java/GraphSetupTest.java" />
       </list>
     </option>
@@ -581,16 +130,12 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -601,6 +146,11 @@
             <path>
               <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -608,21 +158,6 @@
               <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -641,12 +176,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -660,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GraphSetupTest.verticesPositiveTest">
+  <component name="RunManager">
     <configuration name="GraphSetupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
       <option name="PACKAGE_NAME" value="" />
@@ -670,19 +208,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphSetupTest.verticesPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructuresAndAlgorithms" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GraphSetupTest" />
-      <option name="METHOD_NAME" value="verticesPositiveTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GraphSetupTest.verticesPositiveTest" />
         <item itemvalue="JUnit.GraphSetupTest" />
       </list>
     </recent_temporary>
@@ -692,167 +219,167 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="531a8253-fccc-4a93-a427-0d340dacd1c0" name="Default Changelist" comment="" />
-      <created>1588137317379</created>
+      <changelist id="ee1d82df-31a5-4961-a462-fd063ec717a1" name="Default Changelist" comment="" />
+      <created>1588385843268</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588137317379</updated>
+      <updated>1588385843268</updated>
     </task>
-    <task id="LOCAL-00001" summary="Greedy Algorithm: Setup for kruskal's minimum spanning tree">
-      <created>1588144438733</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1588144438733</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Greedy Algorithm: Setup for kruskal's minimum spanning tree">
-      <created>1588145992273</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1588145992273</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Greedy Algorithm: Setup for kruskal's minimum spanning tree">
-      <created>1588146492172</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1588146492172</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Greedy Algorithm: Setup for kruskal's minimum spanning tree">
-      <created>1588160446026</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1588160446026</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="GraphSetupTest - 2020.05.01 at 19h 22m 38s.xml">
-      <configuration name="GraphSetupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphSetupTest - 2020.05.01 at 19h 25m 07s.xml">
-      <configuration name="GraphSetupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphSetupTest - 2020.05.01 at 19h 27m 02s.xml">
-      <configuration name="GraphSetupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphSetupTest - 2020.05.01 at 19h 33m 12s.xml">
-      <configuration name="GraphSetupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphSetupTest - 2020.05.01 at 19h 34m 18s.xml">
-      <configuration name="GraphSetupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphSetupTest - 2020.05.01 at 20h 15m 40s.xml">
-      <configuration name="GraphSetupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphSetupTest - 2020.05.01 at 20h 25m 21s.xml">
-      <configuration name="GraphSetupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphSetupTest - 2020.05.01 at 20h 26m 39s.xml">
-      <configuration name="GraphSetupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphSetupTest_verticesPositiveTest - 2020.05.01 at 20h 27m 43s.xml">
-      <configuration name="GraphSetupTest.verticesPositiveTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.18821605" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Greedy Algorithm: Setup for kruskal's minimum spanning tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Greedy Algorithm: Setup for kruskal's minimum spanning tree" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/UnionFind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="529">
           <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/exceptions/DSAException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding>
             <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-          <folding>
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GraphSetupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        <state relative-caret-position="-1304">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DataStructuresAndAlgorithms</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
