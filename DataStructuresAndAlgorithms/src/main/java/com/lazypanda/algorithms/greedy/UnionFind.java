@@ -1,5 +1,7 @@
 package com.lazypanda.algorithms.greedy;
 
+import java.util.Arrays;
+
 /**
  * Union-Find algorithm implementation to detect a cycle in a graph with no self loops.
  *
@@ -15,17 +17,16 @@ package com.lazypanda.algorithms.greedy;
  */
 public class UnionFind {
 
-    int parent[];
+    int [] parent;
 
     /**
      * @param graph is an instance of class Graph
      * parent[] is a 1D array to keep track of subsets of vertices.
      *
      */
-    UnionFind(Graph graph){
-        for(int i=0; i<graph.numVertices; i++){
-            parent[i] = -1;
-        }
+    public UnionFind(Graph graph){
+        parent = new int[graph.numVertices];
+        Arrays.fill(parent,-1);
     }
 
     /**
@@ -34,7 +35,7 @@ public class UnionFind {
      * @return integer subset to which element belongs
      */
 
-    int find(int element){
+    private int find(int element){
         if(parent[element] == -1){
             return element;
         }
@@ -47,7 +48,7 @@ public class UnionFind {
      * @param element2 integer vertice
      */
 
-    void union(int element1, int element2){
+    private void union(int element1, int element2){
         int set1 = find(element1);
         int set2 = find(element2);
         parent[element1] = element2;
@@ -59,7 +60,7 @@ public class UnionFind {
      * @return integer 1 is graph is a cycle 0 otherwise
      */
 
-    int isCycle(Graph graph){
+    public int isCycle(Graph graph){
 
         for(int i=0; i<graph.numEdges; i++){
             int element1 = find(graph.edges[i].source);

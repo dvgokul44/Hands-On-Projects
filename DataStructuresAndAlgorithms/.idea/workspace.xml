@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee1d82df-31a5-4961-a462-fd063ec717a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_runner_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UnionFindTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructuresAndAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresAndAlgorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/exceptions/DSAException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/exceptions/DSAException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/Graph$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/Graph$Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/UnionFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GraphSetupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GraphSetupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lazypanda/algorithms/greedy/UnionFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GraphSetupTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="259">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#254#255#0" expanded="true" />
                 <element signature="e#286#287#0" expanded="true" />
@@ -73,8 +53,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/UnionFind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="157">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UnionFindTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +87,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/GraphSetupTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1304">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="-1083">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,11 +115,17 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/Graph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/UnionFind.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/exceptions/DSAExceptions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/UnionFind.java" />
         <option value="$PROJECT_DIR$/src/test/java/GraphSetupTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnionFindTest.java" />
       </list>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="GraphSetupTest" />
+    </enabled-run-configurations>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -198,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UnionFindTest.isGraphPartialNegative">
     <configuration name="GraphSetupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
       <option name="PACKAGE_NAME" value="" />
@@ -208,8 +211,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnionFindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAlgorithms" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnionFindTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnionFindTest.isGraphPartialNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAlgorithms" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnionFindTest" />
+      <option name="METHOD_NAME" value="isGraphPartialNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnionFindTest.isGraphPartialNegative" />
+        <item itemvalue="JUnit.UnionFindTest" />
         <item itemvalue="JUnit.GraphSetupTest" />
       </list>
     </recent_temporary>
@@ -227,24 +251,57 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UnionFindTest - 2020.05.02 at 08h 13m 09s.xml">
+      <configuration name="UnionFindTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnionFindTest - 2020.05.02 at 08h 16m 56s.xml">
+      <configuration name="UnionFindTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnionFindTest - 2020.05.02 at 08h 17m 40s.xml">
+      <configuration name="UnionFindTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnionFindTest - 2020.05.02 at 08h 17m 55s.xml">
+      <configuration name="UnionFindTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphSetupTest - 2020.05.02 at 08h 19m 42s.xml">
+      <configuration name="GraphSetupTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphSetupTest - 2020.05.02 at 08h 22m 37s.xml">
+      <configuration name="GraphSetupTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnionFindTest - 2020.05.02 at 08h 22m 45s.xml">
+      <configuration name="UnionFindTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnionFindTest - 2020.05.02 at 08h 55m 43s.xml">
+      <configuration name="UnionFindTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnionFindTest - 2020.05.02 at 08h 55m 55s.xml">
+      <configuration name="UnionFindTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnionFindTest - 2020.05.02 at 09h 02m 51s.xml">
+      <configuration name="UnionFindTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.39934534" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -258,14 +315,33 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/UnionFind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/exceptions/DSAException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -277,13 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GraphSetupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1304">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -291,10 +360,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GraphSetupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1083">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="259">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="e#254#255#0" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
@@ -304,6 +385,23 @@
             <element signature="e#507#508#0" expanded="true" />
             <element signature="e#539#540#0" expanded="true" />
             <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lazypanda/algorithms/greedy/UnionFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnionFindTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

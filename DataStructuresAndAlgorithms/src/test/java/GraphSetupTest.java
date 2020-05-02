@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.fail;
 
 public class GraphSetupTest {
     static Graph graph;
@@ -17,7 +16,6 @@ public class GraphSetupTest {
     @Test
     void verticesPositiveTest(){
         Assertions.assertEquals(3, graph.getNumVertices());
-        System.out.println("Vertices-Positive Test Passed");
 
     }
 
@@ -30,7 +28,6 @@ public class GraphSetupTest {
         catch (DSAException e){
             Assertions.assertEquals(true,true);
             System.out.println(e.getMessage());
-            System.out.println("Vertices-Negative Test Passed");
         }
     }
 
@@ -38,7 +35,6 @@ public class GraphSetupTest {
     @Test
     void edgesPositiveTest(){
         Assertions.assertEquals(3, graph.getNumEdges());
-        System.out.println("Edge-Positive Test Passed");
     }
 
     @Tag("Add Edge-Postive")
@@ -56,11 +52,9 @@ public class GraphSetupTest {
     void addEdgeTypeTest() throws DSAException{
         try{
             graph.addEdge(3,4);
-            fail("Add Edge-Negative-Self Loop Test Failed");
         }
         catch (DSAException e){
             System.out.println(e);
-            System.out.println("Add Edge-Negative-Invalid Vertex Passed");
             Assertions.assertEquals(true,true);
         }
     }
@@ -70,11 +64,9 @@ public class GraphSetupTest {
     void addEdgeLoopTest() throws DSAException{
         try{
             graph.addEdge(2,2);
-            fail("Add Edge-Negative-Self Loop Test Failed");
         }
         catch (DSAException e){
             System.out.println(e);
-            System.out.println("Add Edge-Negative-Self Loop Test Passed");
             Assertions.assertEquals(true,true);
         }
     }
@@ -84,11 +76,9 @@ public class GraphSetupTest {
     void addEdgeLimitTest() throws DSAException{
         try{
             graph.addEdge(1,2);
-            fail("Add Edge-Negative-Edge Limit Test Failed");
-        }
+            }
         catch (DSAException e){
             System.out.println(e);
-            System.out.println("Add Edge-Negative-Edge Limit Test Passed");
             Assertions.assertEquals(true,true);
         }
     }
