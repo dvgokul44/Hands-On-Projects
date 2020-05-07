@@ -14,6 +14,7 @@ This is a commonplace for different languages, tools, libraries, technologies th
 * Exploratory Data Analysis
 * Foundations of NLP
 * Tensorflow Basics
+* Text Summarization using Page Rank
 
 ## Computer-Vision
 
